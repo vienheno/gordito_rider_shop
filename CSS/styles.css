@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header { 
+    position: fixed; 
+    left: 0;
+    top: 0;
+    right: 0;
+}   /*Con esto hacemos que todo el header esté fijo, 
+    siempre estara visible cuando bajemos o subamos la pagina*/
+
+h1 {  
+    
+    display: flex;/*Restablece los alineamientos a CERO en el box de <h1>*/
+    background-color: black; /*Color de fondo de <h1>*/
+    height: 70px; /*Altura de la box que contiene <h1>*/
+    color: white; /*Color del texto*/
+    font-weight: 700; /*Grosor del texto*/
+    justify-content: center; /*Centrar texto horizontalmente*/
+    align-items: center; /*Centrar texto verticalmente*/
+    font-family: "Dangrek", serif;
+    font-size: 50px;
+    
+}
+
+header .menu_top {
+    display: flex;
+    height: 30px;
+    background-color: rgb(181, 181, 181);
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", serif;
+    font-size: 15px;
+    
+
+}
+
+.option_menu {
+    color: blue;
+    padding: 10px;
+    transition: .2s linear;
+}
+
+header .menu_top :hover {
+    color: blueviolet;
+}
+
+.main {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 120px;
+
+}
+
+.img_products {
+    width: 200px;
+}
